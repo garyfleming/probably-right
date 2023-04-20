@@ -52,8 +52,7 @@ SSCRCSRCSRCSCRSSRCSSCR...
    !!!
 ```
 
-^ Weather where we are isn't random. It's based on a bunch of factors.
-^ Let's simplify: Sunny, cloudy, rainy.
+^ Moving window
 
 ---
 
@@ -172,6 +171,7 @@ SS MMM LL
 
 
 ^ Rough categorisation of SML based on past data.
+^ "Most of our S's are a 2.. etc"
 ^ Do you trust it? In 32 days exactly this will be delived?
 ^ Too precise! How to solve?
 
