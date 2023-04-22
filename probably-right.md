@@ -1,8 +1,15 @@
 theme: Ostrich, 1
 
-# Probably Right
+![original](images/coin.jpg)
 
-@garyfleming
+^ Thought experiment (or actual): Start with a counter set to 0. Flip a coin 5 times. If it's head, add 1 to your count. Tails, subtract 1. After 5 flips, what number?
+USE THIS TO TALK ABOUT POSSIBLE VS LIKELY OUTCOMES (-5, 5 possible, 0 more likely, bell curve)
+
+---
+
+## Probably Right: Estimates and Forecasting
+
+### @garyfleming
 
 ^ Talk about probabilistic forecasts and their place in data-lead
 estimation.
@@ -27,7 +34,6 @@ Stochastic processes - seeing order in randomness
 
 ^ Modelling changes through probabilities of one thing following another.
 ^ Used these in final year dissertation...
-^ TODO consider illustrating with the Drunkard's walk first
 
 ---
 
