@@ -40,7 +40,7 @@ Stochastic processes - seeing order in randomness
 # Example: Weather.
 
 ```
-SSCRCSRCSRCSCRSSRCSSCR...
+☀️☀️☁️☔☁️☀️☔☁️☀️☔☁️☀️☁️☔☀️☀️☔☁️☀️☀️☁️☔...
 ```
 
 ^ Weather where we are isn't random. It's based on a bunch of factors.
@@ -51,11 +51,12 @@ SSCRCSRCSRCSCRSSRCSSCR...
 # Example: Weather.
 
 ```
-SSCRCSRCSRCSCRSSRCSSCR...
-!!!
- !!!
-  !!!
-   !!!
+☀️☀️☁️☔☁️☀️☔☁️☀️☔☁️☀️☁️☔☀️☀️☔☁️☀️☀️☁️☔...
+
+☀️☀️☁️
+  ☀️☁️☔
+    ☁️☔☁️
+     ☔☁️☀️
 ```
 
 ^ Moving window
@@ -63,12 +64,12 @@ SSCRCSRCSRCSCRSSRCSSCR...
 ---
 
 ```
-     S           R           C
-  /  |  \     /  |  \     /  |  \
- S   R   C   S   R   C   S   R   C
-/|\ /|\ /|\ /|\ /|\ /|\ /|\ /|\ /|\ 
-SRC SRC SRC SRC SRC SRC SRC SRC SRC
-325  ........
+        ☀️                ☔                 ☁️
+    /   |   \         /   |   \          /  |   \
+  ☀️    ☔    ☁️     ☀️    ☔    ☁️     ☀️    ☔    ☁️
+ /|\   /|\   /|\   /|\   /|\   /|\   /|\   /|\   /|\ 
+☀️☔☁️ ☀️☔☁️ ☀️☔☁️ ☀️☔☁️ ☀️☔☁️ ☀️☔☁️ ☀️☔☁️ ☀️☔☁️ ☀️☔☁️
+3 2 5  ........
 ```
 
 Day 1: sunny
@@ -81,11 +82,11 @@ THEN 50% cloudy, 30% sun, 20% rain
 ---
 
 ```
-S - S - C - C - S - C
-|   |   |   |   |   |
-S - C - C - R - R - C
-|   |   |   |   |   |
-S - C - R - C - S - S
+☀️ - ☀️ - ☁️ - ☁️ - ☀️ - ☁️
+|    |    |   |    |    |
+☀️ - ☁️ - ☁️ - ☔ - ☔ - ☁️
+|    |    |   |    |    |
+☀️ - ☁️ - ☔ - ☁️ - ☀️ - ☀️
 ```
 
 ^ Real world is way more complex. Imagine this grid represents tomorrow's predictions for neighbouring areas. Data and prediction between them is interconnected in fascinating ways.
